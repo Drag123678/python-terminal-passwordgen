@@ -22,6 +22,10 @@ This is a simple Python script that generates random passwords based on user pre
 - The generated password must be at least 9 characters long and less than 50 characters long.
 - You must have at least 1 uppercase letter, 1 lowercase letter, 1 special character, and 1 number in your password.
 
+##Error Handling
+The script includes basic error handling to handle exceptions. If an error occurs, it will display an error message and prompt you to try again.
+
+
 ## Example
 
 Here's an example of how the script works:
@@ -38,3 +42,7 @@ type no if you want to type in the lengths.
 Your randomly generated password is:
 Abc$12@9
 Your password is 8 characters long!
+
+'''
+
+
